@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dm0abfuqis4lu"]
+
+[ext_resource type="AudioStream" uid="uid://7vm0qti2x3xw" path="res://sound/male-heavy-breathing-67325.mp3" id="1_3jxwy"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_3jxwy")
+volume_db = 11.82
+autoplay = true

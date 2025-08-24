@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://kpgueo457tcu"]
+
+[ext_resource type="AudioStream" uid="uid://6l53ll5tep10" path="res://sound/rain-sound-188158.mp3" id="1_sxx45"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_sxx45")
+autoplay = true
